@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="index.php" method="Post">
+            Cedula de cliente: <input type="number" name="cedula" required><br>
+            Nombre de cliente: <input type="text" name="nombre" required><br>
+            Monto de credito: <input type="number" name="credito" required><br>
+            Tasa de interes mensual: <input type="number" name="tasa" step="0.01" required><br>
+            Plazo en meses: <input type="number" name="plazo" required><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
